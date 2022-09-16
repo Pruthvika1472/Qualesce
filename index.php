@@ -2,6 +2,7 @@
     require_once('common_files/header.php');
 ?>
 <h1>DAILY TASKS</h1>
+<h2>Changed in Ala</h2>
 <ul>
     <li><a href="Day_1/index.php" target="_top">Day_1 Task</a></li>
     <li><a href="Day_2/index1.php" target="_blank">Day_2 Task</a></li>
