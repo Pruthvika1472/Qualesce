@@ -1,2 +1,0 @@
-# Qualesce
-Daily tasks
