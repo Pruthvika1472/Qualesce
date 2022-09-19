@@ -1,1 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Example</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap");
 
+      body {
+        background: #faedcd;
+      }
+
+      * {
+        padding: 0;
+        margin: 0 auto;
+        box-sizing: border-box;
+      }
+
+      .headerContainer {
+        background: black;
+      }
+      .secOneContainer,
+      .aContainers {
+        background-color: #fff;
+        padding: 50px 0;
+      }
+      .aContainers {
+        background-color: white;
+      }
+      .headerWrapper,
+      .secOneWrapper,
+      .footerWrapper {
+        padding: 0;
+        margin: 0 auto;
+        max-width: 1200px;
+        box-sizing: border-box;
+      }
+
+      .headerWrapper {
+        text-align: center;
+      }
+
+      h1 {
+        background-color: black;
+        /* border: 2px solid white; */
+        font-size: 64px;
+        font-family: "Bungee Spice", cursive;
+        margin: 20px 0;
+        display: inline-block;
+      }
+
+      .secOneWrapper {
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+      }
+
+      .secOneWrapper h2 {
+        text-align: center;
+        font-size: 50px;
+        margin: 15px 0 25px 0;
+      }
+
+      .secOneWrapper article {
+        display: inline-block;
+        width: 230px;
+        height: 230px;
+        /* border: 1px solid black; */
+        text-align: center;
+        margin: 30px;
+        background-color: white;
+        border-radius: 2px;
+        padding: 0 10px;
+        box-shadow: 1px 1px 8px 4px lightgray;
+      }
+
+      article h3 {
+        font-size: 22px;
+        margin: 10px auto;
+        color: #f0db4f;
+      }
+
+      article a {
+        text-decoration: none;
+        background: #0077b6;
+        color: white;
+        padding: 5px 15px;
+        border-radius: 30px;
+        display: inline-block;
+        margin: 30px 0 0 0;
+        cursor: pointer;
+        border: 1px solid #0077b6;
+      }
+
+      article a:hover {
+        background-color: white;
+        color: #0077b6;
+      }
+
+      /* CSS for Footer*/
+
+      .mainFooter {
+        background: black;
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      .middleFooter {
+        text-align: center;
+        margin: 20px 0 0 0;
+      }
+      .middleFooter a {
+        display: block;
+        text-decoration: none;
+        color: #f0db4f;
+        padding: 10px;
+      }
+      td,
+      tr {
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="mainHeaderContainer">
+      <div class="headerContainer">
+        <div class="headerWrapper">
+          <h1>Hello World!</h1>
+        </div>
+      </div>
+      <div class="secOneContainer">
+        <section class="secOneWrapper">
+          <h2>Known Web Languages</h2>
+          <article class="articleJs">
+            <h3>Js</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <a href="qualesce.com">Read More</a>
+          </article>
+          <article class="articlePython">
+            <h3>Python</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <a href="qualesce.com">Read More</a>
+          </article>
+          <article class="articlePhp">
+            <h3>PHP</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <a href="qualesce.com">Read More</a>
+          </article>
+          <article class="articleJava">
+            <h3>Java</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <a href="qualesce.com">Read More</a>
+          </article>
+        </section>
+      </div>
+      <footer class="mainFooter">
+        <div class="footerWrapper">
+          <div class="topFooter">
+            <marquee><p>Thanks for visiting my site!</p></marquee>
+          </div>
+          <div class="middleFooter">
+            <table>
+              <tr>
+                <th>FOLLOW THROUGH:</th>
+                <th>ADDRESS:</th>
+              </tr>
+              <tr>
+                <td>
+                  <a href="#">Facebook</a>
+                  <a href="#">Twitter</a>
+                  <a href="#">Github</a>
+                  <a href="#">Gmail</a>
+                  <a href="#">Linkdlen</a>
+                </td>
+                <td>
+                  <p>
+                    #628a, above Canara Bank,<br />
+                    Indira Nagar 1st Stage, <br />
+                    Bengaluru, Karnataka 560038
+                  </p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="bottomFooter">
+            <h5>© 2022-23 Licensed.All rights reserved.</h5>
+            <h5 style="text-align: right">Created by Qualesce and Team.</h5>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
